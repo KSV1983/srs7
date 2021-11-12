@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">srs7</string>
+    <string name="text_view_1_str">В данном text_view применяется red_style </string>
+    <string name="text_view_2_str">В данном text_view применяется orange_style</string>
+    <string name="btn1_str">Push me :)</string>
+    <string name="text_view_3_str">Задание выполнено!"</string>
+</resources>

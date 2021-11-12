@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/text_view1"
+            style="@style/red_style"
+            android:text="@string/text_view_1_str"
+            />
+
+        <TextView
+            android:id="@+id/text_view2"
+            style="@style/orange_style"
+            android:text="@string/text_view_2_str"
+            />
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn1_str"
+            android:layout_gravity="center"/>
+
+        <Switch
+            android:id="@+id/switch_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            tools:ignore="UseSwitchCompatOrMaterialXml"
+            >
+        </Switch>
+
+    </LinearLayout>
+
+        <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/checkbox1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true" />
+
+        <TextView
+            android:id="@+id/text_view3"
+            style="@style/green_style"
+            android:text="@string/text_view_3_str" />
+     </LinearLayout>
+    </LinearLayout>
+
+
+
